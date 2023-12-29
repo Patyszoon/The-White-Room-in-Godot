@@ -11,7 +11,7 @@
 [node name="Node3D" type="Node3D"]
 
 [node name="Ściany" type="Node3D" parent="."]
-transform = Transform3D(1462.07, 0, 0, 0, 11.8181, 0, 0, 0, 1467.54, -0.470568, 0.275296, 3.44235)
+transform = Transform3D(4400, 0, 0, 0, 35.565, 0, 0, 0, 4416.46, -1.9245, 0.275296, -17.6216)
 
 [node name="Ludzik" parent="." instance=ExtResource("1_s60h8")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2.07167)
@@ -23,7 +23,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1.91854)
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2)
 
 [node name="Sciana_podloga" parent="." instance=ExtResource("4_3ulj7")]
-transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -3.96, 4.76837e-07, -2.00711)
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -3.96, 0, -2.00711)
 
 [node name="Sciany2_podloga2" parent="." instance=ExtResource("3_ddn05")]
 transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -7.94481, 0, -2.01275)
@@ -107,13 +107,13 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.859, 0, -9.98)
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.89068, 0, -9.95802)
 
 [node name="Sciana_podloga9" parent="." instance=ExtResource("4_3ulj7")]
-transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 0.0598321, -0.00789976, -9.9752)
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 0.0598321, 0, -9.9752)
 
 [node name="Podloga7" parent="." instance=ExtResource("2_dyptl")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.88204, 0, -9.96326)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.88329, 0, -9.98193)
 
 [node name="Podloga8" parent="." instance=ExtResource("2_dyptl")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.02429, 0, -9.96622)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.9772, 0, -9.96622)
 
 [node name="Naroznik9" parent="." instance=ExtResource("5_ap3fi")]
 transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 7.94364, 0, -9.92887)
@@ -140,16 +140,16 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.873, 0, -13.951)
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.8768, 0, -13.9516)
 
 [node name="Podloga10" parent="." instance=ExtResource("2_dyptl")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.86443, 0, -13.9449)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.86999, 0, -13.9449)
 
 [node name="Naroznik11" parent="." instance=ExtResource("5_ap3fi")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.87919, 0, -13.9347)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.93127, 0, -13.9573)
 
 [node name="Podloga11" parent="." instance=ExtResource("2_dyptl")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.124124, -0.00699902, -13.9554)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.050317, 0, -13.9554)
 
 [node name="Naroznik12" parent="." instance=ExtResource("5_ap3fi")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.99725, 0, -13.9438)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.00848, 0, -13.9159)
 
 [node name="Podloga12" parent="." instance=ExtResource("2_dyptl")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.98391, 0, -13.9282)
@@ -159,3 +159,186 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.955, 0, -13.9008)
 
 [node name="Sciana_podloga12" parent="." instance=ExtResource("4_3ulj7")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 15.8915, 0, -13.9094)
+
+[node name="Sciana_podloga13" parent="." instance=ExtResource("4_3ulj7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.8605, 0, -17.8933)
+
+[node name="Sciana_podloga14" parent="." instance=ExtResource("4_3ulj7")]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -15.8701, 0, -17.9099)
+
+[node name="Sciana_podloga15" parent="." instance=ExtResource("4_3ulj7")]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -11.8875, 0, -17.9076)
+
+[node name="Naroznik14" parent="." instance=ExtResource("5_ap3fi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.89815, 0, -17.9116)
+
+[node name="Podloga13" parent="." instance=ExtResource("2_dyptl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.92117, 0, -17.9436)
+
+[node name="Naroznik15" parent="." instance=ExtResource("5_ap3fi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0768902, 0, -17.8702)
+
+[node name="Podloga14" parent="." instance=ExtResource("2_dyptl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.0843, 0, -17.9096)
+
+[node name="Sciana_podloga16" parent="." instance=ExtResource("4_3ulj7")]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 8.07044, 0, -17.8639)
+
+[node name="Sciana_podloga17" parent="." instance=ExtResource("4_3ulj7")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 15.8885, 0, -17.8987)
+
+[node name="Naroznik16" parent="." instance=ExtResource("5_ap3fi")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 11.9712, 0, -17.8701)
+
+[node name="Naroznik17" parent="." instance=ExtResource("5_ap3fi")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -19.864, 0, -21.8095)
+
+[node name="Sciana_podloga18" parent="." instance=ExtResource("4_3ulj7")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -15.8757, 0, -21.8416)
+
+[node name="Podloga15" parent="." instance=ExtResource("2_dyptl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.8702, 0, -21.8221)
+
+[node name="Sciana_podloga19" parent="." instance=ExtResource("4_3ulj7")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -7.89524, 0, -21.81)
+
+[node name="Sciana_podloga20" parent="." instance=ExtResource("4_3ulj7")]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -3.89259, 0, -21.803)
+
+[node name="Sciana_podloga21" parent="." instance=ExtResource("4_3ulj7")]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 0.0983828, 0, -21.8034)
+
+[node name="Naroznik18" parent="." instance=ExtResource("5_ap3fi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.08118, 0, -21.8071)
+
+[node name="Podloga16" parent="." instance=ExtResource("2_dyptl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.04628, 0, -21.8105)
+
+[node name="Podloga17" parent="." instance=ExtResource("2_dyptl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.0455, 0, -21.811)
+
+[node name="Sciana_podloga22" parent="." instance=ExtResource("4_3ulj7")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 15.8905, 0, -21.8145)
+
+[node name="Sciana_podloga23" parent="." instance=ExtResource("4_3ulj7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.8603, 0, -25.7412)
+
+[node name="Sciana_podloga24" parent="." instance=ExtResource("4_3ulj7")]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -15.9236, 0, -25.7363)
+
+[node name="Naroznik19" parent="." instance=ExtResource("5_ap3fi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.9378, 0, -25.7395)
+
+[node name="Sciana_podloga25" parent="." instance=ExtResource("4_3ulj7")]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -7.95016, 0, -25.7353)
+
+[node name="Sciana_podloga26" parent="." instance=ExtResource("4_3ulj7")]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -3.96016, 0, -25.7387)
+
+[node name="Sciana_podloga27" parent="." instance=ExtResource("4_3ulj7")]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 0.0307287, 0, -25.7381)
+
+[node name="Sciana_podloga28" parent="." instance=ExtResource("4_3ulj7")]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 4.01091, 0, -25.7383)
+
+[node name="Naroznik20" parent="." instance=ExtResource("5_ap3fi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.99344, 0, -25.7422)
+
+[node name="Sciany2_podloga4" parent="." instance=ExtResource("3_ddn05")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.8969, 0, -25.7476)
+
+[node name="Podloga18" parent="." instance=ExtResource("2_dyptl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.9964, 0, -25.7462)
+
+[node name="Sciany2_podloga6" parent="." instance=ExtResource("3_ddn05")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.8614, 0, -29.6985)
+
+[node name="Podloga19" parent="." instance=ExtResource("2_dyptl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.8517, 0, -29.7076)
+
+[node name="Podloga20" parent="." instance=ExtResource("2_dyptl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.8572, 0, -29.7034)
+
+[node name="Podloga21" parent="." instance=ExtResource("2_dyptl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.86228, 0, -29.704)
+
+[node name="Naroznik21" parent="." instance=ExtResource("5_ap3fi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.95387, 0, -29.7063)
+
+[node name="Podloga22" parent="." instance=ExtResource("2_dyptl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0548884, 0, -29.7089)
+
+[node name="Naroznik22" parent="." instance=ExtResource("5_ap3fi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.02595, 0, -29.7027)
+
+[node name="Podloga23" parent="." instance=ExtResource("2_dyptl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.03748, 0, -29.7076)
+
+[node name="Sciana_podloga29" parent="." instance=ExtResource("4_3ulj7")]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 11.9686, 0, -29.698)
+
+[node name="Sciany2_podloga7" parent="." instance=ExtResource("3_ddn05")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.899, 0, -29.7078)
+
+[node name="Naroznik23" parent="." instance=ExtResource("5_ap3fi")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -19.8632, -0.000171661, -33.6816)
+
+[node name="Naroznik24" parent="." instance=ExtResource("5_ap3fi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.8889, 0, -33.68)
+
+[node name="Podloga24" parent="." instance=ExtResource("2_dyptl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.8883, 0, -33.6788)
+
+[node name="Naroznik25" parent="." instance=ExtResource("5_ap3fi")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -7.94753, 0, -33.671)
+
+[node name="Sciana_podloga30" parent="." instance=ExtResource("4_3ulj7")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -3.95994, 0, -33.674)
+
+[node name="Sciana_podloga31" parent="." instance=ExtResource("4_3ulj7")]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 0.0447786, 0, -33.659)
+
+[node name="Sciana_podloga32" parent="." instance=ExtResource("4_3ulj7")]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 4.0435, -0.00111246, -33.6617)
+
+[node name="Naroznik26" parent="." instance=ExtResource("5_ap3fi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.02651, 0, -33.6666)
+
+[node name="Podloga25" parent="." instance=ExtResource("2_dyptl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.0171, 0, -33.6713)
+
+[node name="Sciana_podloga33" parent="." instance=ExtResource("4_3ulj7")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 15.896, 0, -33.671)
+
+[node name="Naroznik27" parent="." instance=ExtResource("5_ap3fi")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -19.8627, 0, -37.6667)
+
+[node name="Sciana_podloga34" parent="." instance=ExtResource("4_3ulj7")]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -15.8758, 0, -37.6638)
+
+[node name="Naroznik28" parent="." instance=ExtResource("5_ap3fi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.8965, 0, -37.6672)
+
+[node name="Podloga26" parent="." instance=ExtResource("2_dyptl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.92889, 0, -37.6545)
+
+[node name="Sciany3_podloga3" parent="." instance=ExtResource("7_it2tr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.95893, 0, -41.5983)
+
+[node name="Sciana_podloga35" parent="." instance=ExtResource("4_3ulj7")]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -0.0329171, -0.000365734, -37.6326)
+
+[node name="Sciana_podloga36" parent="." instance=ExtResource("4_3ulj7")]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 3.93062, 2.47955e-05, -37.6332)
+
+[node name="Sciana_podloga37" parent="." instance=ExtResource("4_3ulj7")]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 7.91883, -0.000201702, -37.6326)
+
+[node name="Naroznik29" parent="." instance=ExtResource("5_ap3fi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.9121, 0, -37.6319)
+
+[node name="Naroznik30" parent="." instance=ExtResource("5_ap3fi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.897, 0, -37.6325)
+
+[node name="Sciana_podloga38" parent="." instance=ExtResource("4_3ulj7")]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -7.89622, 0, -37.657)
