@@ -1,2 +1,3 @@
 # The-White-Room
-My first game in Godot engine.
+Labirynt, który na pierwszy rzut oka wygląda na zwykły biały kwadrat, ale ma ukrytą ścieżkę.
+Twoim zadaniem jest wyjść z tego pokoju.
