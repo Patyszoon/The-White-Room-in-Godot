@@ -1,6 +1,7 @@
-[gd_scene load_steps=3 format=3 uid="uid://d12rqiheu3urn"]
+[gd_scene load_steps=4 format=3 uid="uid://d12rqiheu3urn"]
 
 [ext_resource type="Script" path="res://Skrypty/skrypt.gd" id="1_eyo5x"]
+[ext_resource type="PackedScene" uid="uid://dvjig3r1qehcm" path="res://Player.glb" id="2_r8acx"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_10lrn"]
 
@@ -8,10 +9,16 @@
 script = ExtResource("1_eyo5x")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.00796, 0)
 shape = SubResource("CapsuleShape3D_10lrn")
 
 [node name="Rotation_Helper" type="Node3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.248, 0)
 
 [node name="Camera3D" type="Camera3D" parent="Rotation_Helper"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.391047, 0)
+
+[node name="Pivot" type="Node3D" parent="."]
+
+[node name="Player" parent="Pivot" instance=ExtResource("2_r8acx")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.0246789, 0)
