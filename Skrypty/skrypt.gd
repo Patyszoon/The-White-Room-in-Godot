@@ -1,20 +1,16 @@
 extends CharacterBody3D
 
-@export var speed = 14
-@export var fall_acceleration = 75
+@export var speed = 12
 
 var target_velocity = Vector3.ZERO
 
-
 func _ready():
 	pass 
-
-
+	
 func _process(delta):
 	pass
 
-
-func _physics_process(delta):
+func _physics_process(delta: float):
 	var direction = Vector3.ZERO
 	
 	if Input.is_action_pressed("move_right"):
@@ -30,5 +26,10 @@ func _physics_process(delta):
 		direction = direction.normalized()
 		$Pivot.look_at(position + direction, Vector3.UP)
 
-	velocity += Vector3(1.0, 0.0, 0.0)
+	if direction != Vector3.ZERO:
+		target_velocity.x = direction.x * speed
+		target_velocity.z = direction.z * speed
+
+	velocity = target_velocity
 	move_and_slide()
+	
