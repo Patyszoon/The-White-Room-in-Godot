@@ -9,6 +9,7 @@
 [ext_resource type="PackedScene" uid="uid://b0j0rt8i5nolu" path="res://Sciany3_podloga.glb" id="7_it2tr"]
 
 [node name="Node3D" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0697861, 1.90735e-06, -0.0323982)
 
 [node name="Ściany" type="Node3D" parent="."]
 transform = Transform3D(4400, 0, 0, 0, 35.565, 0, 0, 0, 4416.46, -1.9245, 0.275296, -17.6216)
@@ -344,7 +345,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.897, 0, -37.6325)
 transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -7.89622, 0, -37.657)
 
 [node name="Podloga27" parent="." instance=ExtResource("2_dyptl")]
-transform = Transform3D(9.97, 0, 0, 0, 1, 0, 0, 0, 9.97, -2.02245, 2.77847, -19.6583)
+transform = Transform3D(9.97, 0, 0, 0, 1, 0, 0, 0, 9.97, -2.02245, 2.72916, -19.6583)
 
 [node name="Podloga28" parent="." instance=ExtResource("2_dyptl")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.95637, 2.76099, -41.5887)
@@ -353,7 +354,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.95637, 2.76099, -41.5887)
 transform = Transform3D(3, 0, 0, 0, 1, 0, 0, 0, 1, -0.0459805, 2.7573, 2.01147)
 
 [node name="OmniLight3D" type="OmniLight3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.164064, 2.78975, -13.8728)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.058423, 2.78975, -15.3901)
 light_energy = 1.579
 light_indirect_energy = 4.437
 omni_range = 8.97318
@@ -371,7 +372,7 @@ light_indirect_energy = 4.437
 omni_range = 7.66
 
 [node name="OmniLight3D4" type="OmniLight3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.97445, 2.19727, -16.1046)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.97445, 2.19727, -14.2468)
 light_energy = 1.579
 light_indirect_energy = 4.437
 omni_range = 7.66
@@ -395,7 +396,37 @@ light_indirect_energy = 4.437
 omni_range = 7.86803
 
 [node name="OmniLight3D8" type="OmniLight3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.1133, 2.78975, -23.7085)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.0788, 2.78975, -25.4718)
 light_energy = 1.579
 light_indirect_energy = 4.437
 omni_range = 10.022
+
+[node name="OmniLight3D9" type="OmniLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.7556, 2.77459, -27.3966)
+light_energy = 1.579
+light_indirect_energy = 4.437
+omni_range = 7.66
+
+[node name="OmniLight3D10" type="OmniLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0370283, 2.77459, -26.0785)
+light_energy = 1.579
+light_indirect_energy = 4.437
+omni_range = 7.66
+
+[node name="OmniLight3D11" type="OmniLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.6584, 2.77459, -32.8764)
+light_energy = 1.579
+light_indirect_energy = 4.437
+omni_range = 7.66
+
+[node name="OmniLight3D12" type="OmniLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.2298, 2.77459, -35.8315)
+light_energy = 1.579
+light_indirect_energy = 4.437
+omni_range = 8.68112
+
+[node name="OmniLight3D13" type="OmniLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.2213, 2.77459, -36.5929)
+light_energy = 1.579
+light_indirect_energy = 4.437
+omni_range = 8.38176

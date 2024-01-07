@@ -1,6 +1,6 @@
 extends CharacterBody3D
 
-@export var speed = 12
+@export var speed = 10
 
 var target_velocity = Vector3.ZERO
 
@@ -32,4 +32,3 @@ func _physics_process(delta: float):
 
 	velocity = target_velocity
 	move_and_slide()
-	
